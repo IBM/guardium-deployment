@@ -1,0 +1,16 @@
+---
+ansible_python_interpreter: /usr/bin/python3
+vcenter_hostname: "<host IP>"
+vcenter_username: "< vcenter user name>"
+vcenter_password: "<vcenter password >" # vcenter server password
+vm_name: "test1234" # update vm name
+datacenter: "Datacenter" # update Datacenter name
+vm_folder: "/Datacenter/vm/Tamil" # update vm folder
+guest_id: "rhel9_64guest" 
+disk_size_gb: 600 # update your disk size
+datastore: "BM-2-DS-1" # update your datastore name
+memory_mb: 26624  # 26GB in MB
+num_cpus: 8
+iso_path: "[BM-2-DS-1] iso-files/Guardium-ISO-Files/Security_Guardium_Product_Image_V12.0/Security_Guardium_Product_Image_V12.0_DVD_auto.iso"
+network_name: "LAN"
+
