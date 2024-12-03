@@ -21,6 +21,7 @@ This repository contains Ansible playbooks for deploying the IBM Security Guardi
    ```sh
    https://github.com/IBM/guardium-deployment.git 
    cd guardium-deployment
+   ```
 
 2. Configure Variables:
 
