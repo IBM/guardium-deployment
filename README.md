@@ -31,6 +31,6 @@ Edit the vars.yml file to match your environment and requirements.
 
 Execute the main.yml playbook to deploy the Guardium virtual appliance.
 
-```sh
-ansible-playbook main.yml
-```
+   ```sh
+   ansible-playbook main.yml
+   ```
