@@ -27,10 +27,9 @@ This repository contains Ansible playbooks for deploying the IBM Security Guardi
 Edit the vars.yml file to match your environment and requirements.
 
 
-Run the Playbook:
+3. Run the Playbook:
 
 Execute the main.yml playbook to deploy the Guardium virtual appliance.
 
-sh
-
-ansible-playbook main.yml
+   ```sh
+   ansible-playbook main.yml
